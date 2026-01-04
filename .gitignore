@@ -1,0 +1,79 @@
+# ================================
+# Python & LangChain/GenAI Project
+# ================================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env
+.venv/
+lang/
+
+# Environment variables (always ignore API keys!)
+*.env
+*.key
+*.secret
+secrets.json
+
+# Output & data
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Model files / embeddings
+*.bin
+*.pt
+*.pth
+*.h5
+*.model
+models/
+vectorstores/
+chroma/
+faiss_index/
+index_store/
+
+# HuggingFace cache
+huggingface/
+hf_cache/
+~/.cache/huggingface/
+cache/
+transformers_cache/
+
+# LangChain-specific cache/artifacts
+lc_cache/
+langchain.db
+*.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if frontend uses JS)
+node_modules/
+dist/
+build/
+
+# Docker
+*.pid
+*.tar
